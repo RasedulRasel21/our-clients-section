@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+      float: left;
+    width: 20%;
+    height: 100px;
+    padding-left: 160px;
+    padding-bottom: 155px;
+} /* Should be removed. Only for demonstration */
+
+
+.column img{
+  height: 150px;
+}
+
+.our-clients-heading{
+  background-color: #f2f6f9;
+  width: 100%;
+  height: 250px;
+  padding: 45px;
+}
+
+.our-clients-heading h2{
+      font-family: AktivGroteskEx-Black,sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 110%;
+    text-transform: uppercase;
+}
+
+.our-clients-heading p{
+      font-family: sans-serif;
+    font-size: 22px;
+    width: 47%;
+}
+
+.client-list{
+  background-color: #f2f6f9;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  height: 430px;
+}
+
+.take-look{
+  margin-left: 45%;
+      text-decoration: none;
+
+}
+
+.take-look a{
+  text-decoration: none;
+}
+
+.button--primary {
+    background-color: #222;
+    color: #fff;
+    padding: 16px 35.83516px;
+}
+
+.button:hover, button:hover {
+    background-color: #2f2f2f;
+}
+
+.button{
+    cursor: pointer;
+    display: flex;
+    font-family: sans-serif;
+    font-size: .8125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    padding: 13.61702px 30.49801px;
+    text-transform: uppercase;
+    width: fit-content;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+
+  .column {
+      float: left;
+    width: 50%;
+    height: 80px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+}
+
+
+ .column img{
+  height: 100px;
+}
+
+.take-look{
+  margin-left: 35%;
+      text-decoration: none;
+
+}
+
+.our-clients-heading p{
+      font-family: sans-serif;
+    font-size: 22px;
+    width: 100%;
+}
+
+
+  }
+
+</style>
+</head>
+<body>
+<div class="our-clients-heading">
+  <h2>OUR CLIENTS</h2>
+
+<p>We’ve developed and grown e-commerce for some of the best in the business.</p>
+
+</div>
+
+<div class="client-list">
+    <!-- row 1 -->
+<div class="row">
+  <div data-aos="fade-up">
+  <div class="column">
+    <img src="images/shopify-plus-shopify-experts-digitaldevelop.svg" alt="">
+  </div>
+  </div>
+
+  <div data-aos="fade-up">
+  <div class="column">
+    <img src="images/Google-Partner-digital-develop.svg" alt="">
+  </div>
+  </div>
+
+  <div data-aos="fade-up">
+  <div class="column">
+    <img src="images/smile-io-digitaldevelop-1.svg" alt="">
+  </div>
+  </div>
+
+  <div data-aos="fade-up">
+  <div class="column">
+    <img src="images/Rare-io-partner-digitaldevelop.svg" alt="">
+  </div>
+  </div>
+
+</div>
+<!-- row 2 -->
+<div class="row">
+  <div data-aos="fade-up">
+  <div class="column">
+    <img src="images/Justuno-Partner-Digital-Develop.svg" alt="">
+  </div>
+  </div>
+
+  <div data-aos="fade-up">
+  <div class="column">
+    <img src="images/Nosto-Partner.svg" alt="">
+  </div>
+  </div>
+
+  <div data-aos="fade-up">
+  <div class="column">
+    <img src="images/Klaviyo-Partner-Digital-Develop-1.svg" alt="">
+  </div>
+  </div>
+
+  <div data-aos="fade-up">
+  <div class="column">
+    <img src="images/Mailchimp-Partner.svg" alt="">
+  </div>
+  </div>
+
+</div>
+
+
+ <div class="take-look">
+  <a href="/shopify-plus-portfolio/" class="button button--primary">
+    Take a look&nbsp;&nbsp;&nbsp;
+    <span class="button__arrow">→</span></a></div>
+
+</div>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>

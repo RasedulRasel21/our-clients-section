@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="43px" viewBox="0 0 57 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>SVG BLACK</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-486.000000, -129.000000)" fill="#000000">
+            <g id="SVG-BLACK" transform="translate(481.000000, 129.000000)">
+                <g id="Icon" transform="translate(0.000000, 0.395021)">
+                    <rect id="Rectangle" x="5.98511365" y="21.6049788" width="24.609375" height="21"></rect>
+                    <polygon id="Rectangle" transform="translate(16.590693, 15.904434) rotate(-43.000000) translate(-16.590693, -15.904434) " points="7.72563801 9.86030131 32.5637854 9.99903687 32.4702637 21.9118265 7.97764007 21.9485666 0.617600563 17.4827383"></polygon>
+                </g>
+                <g id="Icon" transform="translate(30.594489, 0.000000)">
+                    <rect id="Rectangle" x="5.00073865" y="21.6049788" width="24.609375" height="21"></rect>
+                    <polygon id="Rectangle" transform="translate(15.649907, 15.958635) rotate(-43.000000) translate(-15.649907, -15.958635) " points="6.62343442 10.0236878 31.6280854 9.98387008 31.5345638 21.8966598 7.0419401 21.9333998 -0.328271299 17.4784795"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
