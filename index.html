@@ -2,8 +2,6 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <style>
 * {
   box-sizing: border-box;
@@ -21,7 +19,28 @@
 
 .column img{
   height: 150px;
+  
 }
+
+ /*animation*/
+
+.annim{
+  height: auto;
+  width: 242px;
+  position: relative;
+  animation: myframes 1s ease-out 0s ;
+  animation-iteration-count: 1;
+  animation-direction: alternate; 
+}
+
+@keyframes myframes{
+  0%{height:150px;width: 242px; background-color: black;}
+  100%{height: 0px; width: 242px; background-color: black;}
+  
+}
+
+ /*animation end*/
+
 
 .our-clients-heading{
   background-color: #f2f6f9;
@@ -52,13 +71,13 @@
   height: 430px;
 }
 
-.take-look{
+.take-look-btn{
   margin-left: 45%;
       text-decoration: none;
 
 }
 
-.take-look a{
+.take-look-btn a{
   text-decoration: none;
 }
 
@@ -104,9 +123,11 @@
 
  .column img{
   height: 100px;
+  background-color: yellow;
+  
 }
 
-.take-look{
+.take-look-btn{
   margin-left: 35%;
       text-decoration: none;
 
@@ -117,6 +138,7 @@
     font-size: 22px;
     width: 100%;
 }
+
 
 
   }
@@ -134,26 +156,31 @@
 <div class="client-list">
     <!-- row 1 -->
 <div class="row">
-  <div data-aos="fade-up">
+  
   <div class="column">
-    <img src="images/shopify-plus-shopify-experts-digitaldevelop.svg" alt="">
+    <div class="annim">
+          <img src="images/shopify-plus-shopify-experts-digitaldevelop.svg" alt="" >
+    </div>
   </div>
-  </div>
+  
 
-  <div data-aos="fade-up">
+  
   <div class="column">
+    <div class="annim">
     <img src="images/Google-Partner-digital-develop.svg" alt="">
   </div>
   </div>
 
-  <div data-aos="fade-up">
+  
   <div class="column">
+    <div class="annim">
     <img src="images/smile-io-digitaldevelop-1.svg" alt="">
   </div>
   </div>
 
-  <div data-aos="fade-up">
+  
   <div class="column">
+    <div class="annim">
     <img src="images/Rare-io-partner-digitaldevelop.svg" alt="">
   </div>
   </div>
@@ -161,26 +188,30 @@
 </div>
 <!-- row 2 -->
 <div class="row">
-  <div data-aos="fade-up">
+  
   <div class="column">
+    <div class="annim">
     <img src="images/Justuno-Partner-Digital-Develop.svg" alt="">
   </div>
   </div>
 
-  <div data-aos="fade-up">
+  
   <div class="column">
+    <div class="annim">
     <img src="images/Nosto-Partner.svg" alt="">
   </div>
   </div>
 
-  <div data-aos="fade-up">
+  
   <div class="column">
+    <div class="annim">
     <img src="images/Klaviyo-Partner-Digital-Develop-1.svg" alt="">
   </div>
   </div>
 
-  <div data-aos="fade-up">
+  
   <div class="column">
+    <div class="annim">
     <img src="images/Mailchimp-Partner.svg" alt="">
   </div>
   </div>
@@ -188,7 +219,7 @@
 </div>
 
 
- <div class="take-look">
+ <div class="take-look-btn">
   <a href="/shopify-plus-portfolio/" class="button button--primary">
     Take a look&nbsp;&nbsp;&nbsp;
     <span class="button__arrow">→</span></a></div>
